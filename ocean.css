@@ -1,0 +1,341 @@
+﻿body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 200px 700px  240px   980px 100px 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family:montserrat,Arial, Helvetica, sans-serif;
+}
+.top {
+    padding-left: 30px;
+    grid-column: 1/12;
+    color: white;
+    padding-top: 20px;
+    padding-right: 10px;
+    background: linear-gradient(to bottom,rgb(12, 55, 97), rgba(0,114,236,0.09));
+}
+.top {
+    color:white;
+   
+}
+   
+    .al {
+        display:inline;
+        text-decoration:none;
+        float:right;
+        
+    }
+    .al >a{
+        color: white;
+        text-decoration: none;
+text-transform: uppercase;
+        font-weight: 800;
+        font-size: 1.3rem;
+        margin-top: 0rem;
+        padding-right: 50px;
+    }
+     
+
+
+
+
+.health{
+    padding-left: 30px;
+    grid-column: 1/12;
+    color:white;
+    
+}
+.tombox{
+    display:flex;
+    padding-top:70px;
+   
+}
+fieldset.box1 {
+    color:darkblue;
+    background-color:white;  
+    height: 300px;
+    width: 60%;
+    border: white;
+
+}
+.box1 {
+    background-image: url(https://oceanhealthindex.org/images/section-home-bg-1.png );
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.ded1 {
+    color: darkblue;
+    padding-top: 70px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-top: 0.1rem;
+    margin-bottom: 3.5rem;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+.ded1 h4{
+    display:inline;
+}
+.jijig {
+    color:darkblue;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1rem;
+    margin-top: 20px;
+    padding-top:40px;
+    margin-bottom: 0.8rem;
+    padding-top: 1px;
+    margin-left: 40px;
+}
+.tovchluur1{
+    display: flex;
+}
+
+    .tovchluur1 > .mom input {
+        color: darkblue;
+       
+       
+        border-color:darkblue;
+        padding-left: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 80%;
+        height: 40px;
+    }
+
+    .tovchluur1 > .grand input{
+        color: darkblue;
+        
+        
+        border-color: darkblue;
+        padding-left: 14px;
+        margin-left: 50px;
+        margin-right: 100px;
+        width: 80%;
+        height: 40px;
+    }
+fieldset.box2 {
+    background-color: rgba(30, 44, 95, 0.9);
+    foreground-colpr: white;
+    background-image: none;
+    height: 300px;
+    width: 30%;
+    border: darkblue;
+    margin-right: 30px;
+}
+.ded2 {
+    color: white;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-top: 0.1rem;
+    margin-bottom: 1.5rem;
+    padding-left: 40px;
+ padding-right:100px;
+}
+.ded{
+    color: white;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 50px;
+    text-shadow:0 1px 8px rgba(0,0,0,.3);
+   
+}
+.ded h1{
+    text-transform: uppercase;
+    line-height:1.1;
+    letter-spacing:.03rem;
+}
+.dod {
+    color: white;
+    padding-top: 0px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    margin-bottom: 0rem;
+    padding-left: 50px;
+    padding-right: 500px;
+    padding-top: 0px;
+    line-height: 1.6;
+    letter-spacing: .04rem;
+    font-weight: 800;
+    text-shadow: 0 0 7px rgba(0,0,0,.4);
+}
+
+.jijig2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1rem;
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+    padding-top:1px;
+    margin-left:50px;
+}
+.tovchluur2{
+    display:flex;
+    
+}
+    .tovchluur2 > .sister input {
+        color: white;
+        background-color: rgba(30, 44, 95, 0.9);
+        foreground-colpr: white;
+        background-image: none;
+        border-color:white;
+        padding-left:14px;
+        margin-left:50px; 
+        margin-right:200px;
+        width:40%;
+        height:40px;
+    }
+    .tovchluur2 > .bro input {
+        color: white;
+        background-color: rgba(30, 44, 95, 0.9);
+        foreground-colpr: white;
+        background-image: none;
+        border-color: white;
+        padding-left: 14px;
+        margin-left: 50px;
+        margin-right: 100px;
+      
+        width: 60%;
+        height: 40px;
+    }
+.separ {
+    grid-column: 1/12;
+    background-color: blue;
+    height: 15rem;
+    background:url(https://oceanhealthindex.org/images/bg-home-gradient.png);
+}
+.all {
+    grid-column: 1/12;
+    background-image: url(https://oceanhealthindex.org/images/news-bg.jpg);  
+}
+.news{
+    color:white;
+    font-family:Arial;
+    width:100%;
+}
+.news h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 3.5rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding-left:60px;
+    padding-top:5px;
+}
+.View{
+    text-align:right;
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    font-size:1.7rem;
+    padding-right:20px;
+    margin-bottom:3.5rem;
+    padding-right:40px;
+}
+
+.image11 {
+    float: left;
+    width: 28%;
+    padding-left:50px;
+    padding-bottom:70px;  
+    margin-bottom:100px;
+    z-index:0;
+   
+}
+.project-item{
+    box-shadow:5px 5px 20px black;
+    overflow:hidden;
+}
+.project-item img{
+    border-radius:3px;
+    height:200px;
+    transition:0.8s;
+    
+    
+}
+.project-hover{
+    height:80px;
+    width:430px;
+    padding:6px;
+    box-sizing: border-box;
+    position:absolute;
+    margin-bottom:1px;
+    background: rgb(12, 55, 97);
+    color:white;
+    
+    
+}
+.project-hover > .title{
+    color:white;
+    margin-left:10px;
+    margin-right:10px;
+    font-size:30px;
+    text-align:center;
+   
+    opacity:1;
+}
+.project-item:hover{
+    cursor:pointer;
+}
+.project-item:hover img{
+    transform: scale(1.1) ;
+}
+div.project-hover > span.title {
+    color: white;
+    font-size: 26px;
+    text-shadow: 0 1px 8px rgba(0,0,0,.3);
+    margin-left:60px;
+
+    
+}
+
+
+
+
+
+
+.twitter{
+    grid-column: 1/12;
+   grid-template-rows:500px;
+    background-color:white;
+   height:170px;
+    margin-top:750px;
+    padding-left:700px;
+    padding-top:50px;
+}
+g.logo_image path{
+    color:white;
+    background-color:blue;
+}
+div.footer {
+display:inline;
+}
+.term{
+    grid-column: 1/12;
+    color:black;
+    margin-top:0px;
+    
+}
+.term{
+    background-color:#E5F3FD;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:grey;
+}
+.police{
+    padding-left:1230px;
+}
+.heal{
+    padding-left:30px;
+}
